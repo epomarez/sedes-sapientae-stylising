@@ -10,7 +10,6 @@
 }
 
 #header .header-widget h1 {
-    font-family: "Nickainley";
     font-size: 60px;
     line-height: 84px;
     text-align: center;
@@ -66,10 +65,28 @@ article.post-outer-container .published {
     min-height: 34px;
 }
 
+.parrafo-izquierdo {
+    margin-bottom: 3%;
+    background-color: #f0eeee;
+    padding: 1%;
+    border: 4px dotted #e87048a5;;
+}
+
 .parrafo-izquierdo,
 .parrafo-derecho {
     text-align: justify;
     text-justify: inter-word;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.parrafo-doble {
+    border-bottom: 3px solid #2626269a;
+    
+}
+
+u span {
+    color: #2b00fe;
 }
 
 @media only screen and (min-width: 964px) {
@@ -90,8 +107,8 @@ article.post-outer-container .published {
         text-align: justify;
         text-justify: inter-word;
         background-color: inherit;
-        flex-basis: content;
-
+        flex-basis: fit-content;
+        border: none;
     }
 
     h2 {
@@ -106,4 +123,31 @@ article.post-outer-container .published {
         width: 810px;
         
     }
+}
+
+@media only screen and (max-width:700px) {
+    h2 {
+        font-size: 25px;
+    }
+    .grid-container h2 span {font-size:50%;}
+
+    #header .header-widget h1 {
+        font-size: 40px;
+        line-height: 84px;
+        text-align: center;
+    }
+
+    .post-outer .slide .post-title-container h3  {
+        font-size: 35px;
+        width: fit-content;
+    }
+
+    article.post-outer-container .published {
+        margin-right: 0%;
+    }
+
+    article.post-outer-container .byline, article.post-outer-container .published {
+        font-size: 15px;
+    }
+
 }
