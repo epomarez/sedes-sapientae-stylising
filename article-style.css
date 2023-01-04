@@ -66,15 +66,15 @@ article.post-outer-container .published {
     min-height: 34px;
 }
 
-.parrafo-left,
-.parrafo-right {
+.parrafo-izquierdo,
+.parrafo-derecho {
     text-align: justify;
     text-justify: inter-word;
 }
 
 @media only screen and (min-width: 964px) {
 
-    .doble-parrafo {
+    .parrafo-doble {
         margin-bottom: 60px;
         display: flex;
         flex-direction: row;
@@ -82,16 +82,8 @@ article.post-outer-container .published {
         border-bottom: none;
     }
 
-    .parrafo-left {
-    
-    }
-
-    .parrafo-right {
-    
-    }
-
-    .parrafo-left,
-    .parrafo-right {
+    .parrafo-izquierdo,
+    .parrafo-derecho {
         padding: 10px;
         text-align: justify;
         width: 125px;
