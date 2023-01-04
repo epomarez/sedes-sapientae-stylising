@@ -1,0 +1,86 @@
+.post-title, .post-title a div .r-snippetized{
+ 
+    font-size:30px; 
+    line-height: 24px;
+   text-align: center;
+   }
+   
+   .feed-view .hero .post-title-container .post-title a .snippet-container {
+   height:40px;
+   }
+   
+   #header .header-widget h1{
+   font-family: 'Nickainley' ;
+    font-size:60px; 
+    line-height: 84px;
+   text-align: center;
+   
+   }
+   
+   div.post-header-line-1 {
+   display:flex;
+   justify-content:right;
+   padding-right:5%;
+   ;
+   }
+   
+   .post a time {
+   color: #da7d5e
+   }
+   
+   div.post{
+    margin-top:34px;
+   }
+   
+   .feed-view .hero .byline, .feed-view .hero .byline.post-author a, .feed-view .hero .byline.post-timestamp a {
+   font-size:18px;
+   }
+   
+   .post-outer .slide .post-title-container h3{
+   font-size:44px;
+   }
+   
+   article.post-outer-container  .byline, article.post-outer-container  .published{
+   font-size:18px;
+   
+   }
+   
+   article.post-outer-container .published{
+   margin-right:10%;
+   }
+   
+   .sticky .centered-top .Header h1  {
+   color:#f1f1f1;
+   
+   }
+   
+   .post-outer .post-wrapper .post-title a{
+   color:#1f1f1f;
+   }
+   
+   
+   .feed-view .hero .post-title-container .post-title a .snippet-container {
+    min-height: 32px ! important;
+       max-height: 32px ! important;
+   }
+   
+   
+   .feed-view .post-title a .snippet-container{
+   min-height: 34px;
+   }
+   
+   .parrafo-left, .parrafo-right{ text-align: justify;
+     text-justify: inter-word;
+   }
+   
+   @media only screen and (min-width: 964px) {
+   
+    .parrafo-left { 
+   float: left; padding: 10px; text-align: justify; width: 45%;
+   }
+   
+   .parrafo-right {float: right; padding: 10px; text-align: justify; width: 45%;
+   float: right; padding: 10px; text-align: justify; width: 45%;
+   }
+   
+   }
